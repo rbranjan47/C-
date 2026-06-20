@@ -37,9 +37,46 @@ int main() {
     q = &array_a[0];
 
     cout << q << endl;
-    cout << *q << endl;// This will always print its first value
+    cout << *q << endl; // This will always print its first value
 
-    for (int i=0; i<5; i++) {
-        cout << *(q+i) << endl; // This will print all values of array
+    for (int i = 0; i < 5; i++) {
+        cout << *(q + i) << endl; // This will print all values of array
     }
+
+    // We can also initialize array to a pointer
+    int *r;
+    r = new int[5];
+    r[0] = 1;
+    r[1] = 2;
+    r[2] = 3;
+    r[3] = 4;
+    r[4] = 5;
+
+    for (int i = 0; i < 5; i++) {
+        cout << r[i] << endl;
+    }
+
+    //And once process done delete the initialization stored in heap memory
+    delete [ ] r;
+
+    //After deletion, it will print garbage values
+    for (int i = 0; i < 5; i++) {
+        cout << r[i] << endl;
+    }
+
+    //different types of pointers and their sizes
+    int *p1;
+    double *p2;
+    char *p3;
+    string *p4;
+    float *p5;
+    struct Square *p6;
+
+    cout << sizeof(p1)<<endl; // 8
+    cout << sizeof(p2)<<endl; // 8
+    cout << sizeof(p3)<<endl; // 8
+    cout << sizeof(p4)<<endl; // 8
+    cout << sizeof(p5)<<endl; // 8
+    cout << sizeof(p6)<<endl; // 8
+    // NOTE - Size of pointer is independent of datatype it is based on compiler
 }
