@@ -29,7 +29,7 @@ int main() {
     rectangle *ptr_rectangle = &r;
     // To access values in pointer, use arrow (->) operator
     cout << ptr_rectangle->length << endl; //10
-    cout << ptr_rectangle->breadth << endl; //
+    cout << ptr_rectangle->breadth << endl; //20
 
     // We can also assign new value using pointer
     ptr_rectangle->length = 30;

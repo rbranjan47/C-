@@ -21,12 +21,23 @@ using namespace std;
 
 struct rectangle_properties {
     int length; // 4bytes
-    int breadth;  // 4 bytes
+    int breadth; // 4 bytes
     char x;
 };
 
+struct square_properties {
+    int side;
+};
+
+// Structure passing as parameter in a function
+void square_function(struct square_properties s) {
+    cout << "Square side: " << s.side << endl;
+    cout << "Area of square: " << s.side * s.side << endl;
+}
+
+
 int main() {
-   struct rectangle_properties r1;
+    struct rectangle_properties r1;
     r1.length = 10;
     r1.breadth = 5;
 
@@ -43,5 +54,9 @@ int main() {
 
     cout << sizeof(r2) << endl; // 12 as 4 (for length), 4 (for breadth), 4 (for x)
 
+    // Calling struct square, where we passing struct as parameter
+    struct square_properties s1;
+    s1.side = 4;
+    square_function(s1);
     return 0;
 }
