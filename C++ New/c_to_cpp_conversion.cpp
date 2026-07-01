@@ -37,6 +37,7 @@ public:
         length = value;
         cout << "Length of rectangle: " << length << endl;
     }
+
     void rectangle_breadth(int value) {
         breadth = value;
         cout << "Breadth of rectangle: " << breadth << endl;
@@ -50,27 +51,20 @@ public:
     }
 };
 
-    int main() {
-        // struct rectangle_properties r1;
-        // r1.length = 10;
-        // r1.breadth = 5;
-        rectangle_properties rec;
-        rec.rectangle_length(10);
-        rec.rectangle_breadth(5);
+int main() {
+    // struct rectangle_properties r1;
+    // r1.length = 10;
+    // r1.breadth = 5; 
+    rectangle_properties rec;
+    rec.rectangle_length(10);
+    rec.rectangle_breadth(5);
 
-       rec.rectangle_length(20); //10
-        rec.rectangle_breadth(7); //5
+    rec.rectangle_length(20); //10
+    rec.rectangle_breadth(7); //5
 
-        cout << sizeof(r) << endl; // 12 as 4 (for length), 4 (for breadth), 4 (for x)
-
-        // Or we can initialize like this
-        // struct rectangle_properties r2 = {20, 7};s
-
-        cout << sizeof(r) << endl; // 12 as 4 (for length), 4 (for breadth), 4 (for x)
-
-        // Calling struct square, where we were passing struct as parameter
-        // struct square_properties s1;
-        // s1.side = 4;
-        square_function(4);
-        return 0;
-    }
+    // Calling struct square, where we were passing struct as parameter
+    // struct square_properties s1;
+    // s1.side = 4;
+    rec.square_function(4);
+    return 0;
+}

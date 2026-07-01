@@ -54,7 +54,7 @@ int main() {
 
     cout << sizeof(r2) << endl; // 12 as 4 (for length), 4 (for breadth), 4 (for x)
 
-    // Calling struct square, where we passing struct as parameter
+    // Calling struct square, where we are passing struct as parameter
     struct square_properties s1;
     s1.side = 4;
     square_function(s1);
