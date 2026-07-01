@@ -6,7 +6,7 @@
 #define DEV_C_RECUSRION02_CPP_H
 
 
-class Recusrion02_cpp {
+class recursion_cpp {
 };
 
 

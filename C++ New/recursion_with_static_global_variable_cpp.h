@@ -6,7 +6,7 @@
 #define DEV_C_RECURSION_CPP_H
 
 
-class Recursion_cpp {
+class recursion_with_static_global_variable_cpp {
 };
 
 

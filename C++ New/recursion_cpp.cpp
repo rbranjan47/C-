@@ -2,7 +2,7 @@
 // Created by rbran on 01-07-2026.
 //
 
-#include "Recusrion02_cpp.h"
+#include "recursion_cpp.h"
 #include<iostream>
 
 using namespace std;
