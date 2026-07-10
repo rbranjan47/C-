@@ -5,7 +5,7 @@
 // Reference in C++
 // A reference variable is an alias for an existing variable. It is created using the '&' operator.
 
-#include "reference_cpp.h"
+#include "../reference_cpp.h"
 #include <iostream>
 
 using namespace  std;

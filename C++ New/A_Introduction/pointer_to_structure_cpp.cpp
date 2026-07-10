@@ -2,7 +2,7 @@
 // Created by rbran on 20-06-2026.
 //
 
-#include "pointer_to_structure_cpp.h"
+#include "../pointer_to_structure_cpp.h"
 #include <iostream>
 
 // A pointer to a structure in C++ is a variable that holds the memory address of a struct, just like a pointer to any other type.

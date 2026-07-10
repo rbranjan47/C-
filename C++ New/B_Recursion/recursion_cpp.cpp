@@ -21,9 +21,17 @@ int function_test(int num) {
         return 0;
     }
 }
+// sum of natural numbers using recursion
+int sum_natural_number(int n) {
+    if (n>0) {
+        return n + sum_natural_number(n-1); 
+    }
+    return 0;
+}
 
 int main() { int n;
     cout << "Enter a number: ";
     cin >> n;
     function_test(n);
+    cout << "Sum of natural numbers: " << sum_natural_number(n) << endl;
 }

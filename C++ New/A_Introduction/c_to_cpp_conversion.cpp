@@ -2,7 +2,7 @@
 // Created by rbran on 27-06-2026.
 //
 
-#include "c_to_cpp_conversion.h"
+#include "../c_to_cpp_conversion.h"
 //
 // Created by rbran on 11-06-2026.
 //
@@ -44,7 +44,6 @@ public:
     }
 
     // Structure passing as parameter in a function
-public:
     void square_function(int s) {
         cout << "Square side: " << s << endl;
         cout << "Area of square: " << s * s << endl;

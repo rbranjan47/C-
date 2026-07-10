@@ -6,11 +6,12 @@
 #include<iostream>
 // Recursion is the technique of making a function call itself.
 // Types:
-// 1. Tail Recursion-Recursive function calling itself and that call is the last statement of the function. But in the end it should not perform and action. It should just call function.
-// 2. Head Recursion-Recursive function calling itself and that call is the first statement of the function. But in the end it should not perform and action. It should just call function.
-// 3. Tree Recursion-Recursive function calling itself more than 1 time.
-// 4. Indirect Recursion-Recursive function calling each other based on condition and stops when conditions fails
-// 5. Nested Recursion
+// 1. Tail Recursion-In tail recursion, the function processes first and the recursive call is the last operation.
+// 2. Head Recursion-In head recursion, the recursive call happens before any processing in the function. The function calls itself first and processes later.
+// 3. Tree Recursion-Tree recursion happens when a function calls itself more than once within its body, forming a tree-like structure.
+// 4. Indirect Recursion-Recursive function calling each other based on condition and stops when conditions fails.
+//                      -In indirect recursion, a function does not call itself directly. Instead, it calls another function that eventually calls the first one, creating a chain of calls.
+// 5. Nested Recursion-Nested recursion means the argument to a function is itself a recursive call
 
 using namespace std;
 

@@ -14,7 +14,7 @@
 // Structure is used to create complex data types that can represent real-world entities more effectively than simple data types like int, float, etc.
 
 
-#include "structure_cpp.h"
+#include "../structure_cpp.h"
 #include<iostream>
 
 using namespace std;

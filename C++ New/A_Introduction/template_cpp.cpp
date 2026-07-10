@@ -2,7 +2,7 @@
 // Created by rbran on 28-06-2026.
 //
 
-#include "template_cpp.h"
+#include "../template_cpp.h"
 #include<iostream>
 using namespace std;
 

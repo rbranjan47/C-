@@ -38,5 +38,5 @@ int main() {
     cout << "Tree Recursion" << endl;
     function_tree_recursion_cpp(5); // Output: 5, 4, 3, 2, 1, 4, 3, 2, 1
     cout << "Loop" << endl;
-    function_tree_recursion_vs_loop(5); // Output: 5, 3, 1
+   // function_tree_recursion_vs_loop(5); // Output: 5, 3, 1
 }

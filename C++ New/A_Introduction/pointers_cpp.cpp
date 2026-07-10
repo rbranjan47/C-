@@ -13,7 +13,7 @@
 
 // To print value- *p from pointer, &a - to get value from address
 
-#include "pointers_cpp.h"
+#include "../pointers_cpp.h"
 
 #include <algorithm>
 #include<iostream>
